@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node Backend</title>
+  <style>
+    body{
+      background-color: rgb(40, 39, 39);
+      color: #eee;
+    }
+    form {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    div{
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/auth/login" method="post">
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" name="email" id="">
+    </div>
+    <div>
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="">
+    </div>
+    <button type="submit">Login</button>
+  </form>
+</body>
+
+</html>
